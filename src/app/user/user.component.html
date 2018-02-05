@@ -1,0 +1,30 @@
+<div class="flex-container">
+  <div>
+ <p id="a"> {{userInfo.name}}  </p>
+</div>
+<div>
+ <img src= {{userInfo.image}} alt="Girl in a jacket" width="70" height="50">
+</div>
+<div>
+  <button mat-icon-button [matMenuTriggerFor]="menu" id="b">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <mat-icon>mode_edit</mat-icon>
+      <span>Edit</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>settings</mat-icon>
+      <span>Settings</span>
+    </button>
+  </mat-menu>
+</div>
+</div>
+
+ 
+  
+
+
+  
+

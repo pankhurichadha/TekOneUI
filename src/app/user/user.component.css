@@ -1,0 +1,21 @@
+img {
+    border-radius: 50%;
+}
+.f{
+display: inline-block;
+}
+#b{
+    background: transparent;
+    border:0;
+    outline:0;
+    color:white;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    color:white;
+    justify-content: space-between;
+    
+  }
+
+  
